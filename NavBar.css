@@ -1,23 +1,75 @@
-ul{
-
+body{
+  background-color: Beige;
+  margin: 0px;
 }
-#topNav li a{
+
+
+
+#topNav{
+  margin: 0px;
+  background-color: FloralWhite;
+  height: 15%;
+  margin: 0px;
+}
+
+
+
+#topNav li{
   text-decoration: none;
   display: inline;
   float:right;
-  padding: 15px;
+  padding-right: 20px;
 }
 
 #topNav li:hover{
-  background-color: black;
+  background-color: Aquamarine;
 }
-a{
+#topNav li a{
   text-decoration: none;
   font-family:monospace;
-  font-size: 40px;
-  color: green;
+  font-size: 35px;
+  color: black;
 }
 
 #topNav li a:hover{
-  color: yellow;
+  color: green;
+}
+
+#menuNav{
+  height: 100%;
+  width: 82px;
+  background-color: FloralWhite;
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+  margin: 0px;
+  float: left;
+}
+
+#menuNav li{
+  list-style: none;
+  font-size: 15px;
+  font-family:sans-serif;
+  padding-top: 25px;
+}
+
+
+#menuNav li a{
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+}
+
+
+#menuNav li:hover{
+  background-color: Aquamarine;
+}
+
+
+#menuNav li a:hover{
+  color: green;
+}
+
+#StaffNav li {
+  center;
 }
